@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "run": "deno run -A"
+  },
+  "imports": {
+    "@bartlomieju/postgres": "jsr:@bartlomieju/postgres@^0.17.2"
+  }
+}
